@@ -169,8 +169,17 @@
     <Compile Include="Migrations\201807190425090_AddNotes.Designer.cs">
       <DependentUpon>201807190425090_AddNotes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807191706024_AddCost.cs" />
+    <Compile Include="Migrations\201807191706024_AddCost.Designer.cs">
+      <DependentUpon>201807191706024_AddCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807191726432_AddBottleType.cs" />
+    <Compile Include="Migrations\201807191726432_AddBottleType.Designer.cs">
+      <DependentUpon>201807191726432_AddBottleType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Bottle.cs" />
+    <Compile Include="Models\BottleType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -244,6 +253,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807190425090_AddNotes.resx">
       <DependentUpon>201807190425090_AddNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807191706024_AddCost.resx">
+      <DependentUpon>201807191706024_AddCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807191726432_AddBottleType.resx">
+      <DependentUpon>201807191726432_AddBottleType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
